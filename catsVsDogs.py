@@ -7,11 +7,11 @@ import altair as alt
 
 st.title('Cats vs Dogs - Popularity!')
 
-#image = Image.open('pet.png')
+image = Image.open('pet.png')
 
 st.text('Data from 49 states')
 
-#st.image(image)
+st.image(image)
 
 DATA_URL = ('https://raw.githubusercontent.com/jieunyoo/pets-stats/main/catsvdogs.csv')
 
